@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            setTimeout(() => {
+                fetch("https://hoge.com/").then((data) => {
+                    if (data.status === 200) {
+                        const button = document.createElement("button")
+                        button.innerText = "ボタン"
+                        document.body.appendChild(button)
+                    } else {
+                        throw new Error("error")
+                    }
+                })
+            }, 100)
+        </script>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

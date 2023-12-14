@@ -1,0 +1,16 @@
+{
+  "name": "playwright-msw-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "http-server": "^14.1.1",
+    "msw": "^2.0.11",
+    "playwright": "^1.40.1",
+    "playwright-msw": "^3.0.1"
+  }
+}

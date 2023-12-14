@@ -1,0 +1,3 @@
+{
+  "test": "http-server -p 1234 && yarn playwright test"
+}
